@@ -1,0 +1,24 @@
+type of time complexity 
+1.Big O   - Upper Bond  
+2.Omega notation   - Average 
+3.theta notation  - Lower Bound
+
+
+Upper Bound : -
+
+constant time :- O(1)   - means fixed time 
+
+Linear time :- O(n)
+
+Logarithmic time  :- O(logn)
+
+Quadratic time :- O(n^2)
+
+cubic time :- O(n^3)
+
+
+
+
+
+Space Complexity :- how many memory require to program
+

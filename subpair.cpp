@@ -7,7 +7,10 @@ void sub(int array[],int size,int key)
     {
         for(int j=0;j<size;j++)
         {
-            
+            if(key==array[i]-array[j])
+            {
+                cout<<array[i]<<"-"<<array[j]<<"="<<key<<endl;
+            }
         }
     }
 }
@@ -26,4 +29,5 @@ int main()
     int key;
     cout<<"Entre the target value :";
     cin>>key;
+    sub(array,size,key);
 }

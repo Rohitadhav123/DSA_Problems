@@ -75,9 +75,9 @@ int main()
     cout<<"Enter the search key:";
     cin>>key;
     
-    int answer=firstorder(array,size,key);
-    cout<<"The starting index is:"<<answer<<endl;
+    int firstorder_ans=firstorder(array,size,key);
+    cout<<"The starting index is:"<<firstorder_ans<<endl;
     
-    int answer2=lastorder(array,size,key);
-    cout<<"The last index is :"<<answer2;
+    int secondorder_ans=lastorder(array,size,key);
+    cout<<"The last index is :"<<secondorder_ans;
 }

@@ -3,8 +3,8 @@ using namespace std;
 
 int firstorder(int array[],int size,int key)
 {
-    int start=0;
-    int end=size-1;
+    int start=0, end=size-1;
+   
     int ans=0;
     int mid=(start+end)/2;
     while(start<=end)

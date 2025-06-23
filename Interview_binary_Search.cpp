@@ -108,6 +108,6 @@ int main()
     int key;
     cout<<"Enter the key for seraching :";
     cin>>key;
-    
+
 }
 >>>>>>> 8aabf60 (add new)

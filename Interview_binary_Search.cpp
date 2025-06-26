@@ -3,7 +3,7 @@ using namespace std;
 
 int firstorder(int array[],int size,int key)
 {
-<<<<<<< HEAD
+
     int start=0, end=size-1;
    
     int ans=0;
@@ -39,12 +39,12 @@ int lastorder(int array[],int size,int key)
     int mid=(start+end)/2;
     int ans= -1;
     
-=======
+
     int start=0;
     int end=size-1;
     int mid=(start+end)/2;
     int ans=-1;
->>>>>>> 8aabf60 (add new)
+
     while(start<=end)
     {
         if(array[mid]==key)
@@ -52,7 +52,7 @@ int lastorder(int array[],int size,int key)
             ans=mid;
             start=mid+1;
         }
-<<<<<<< HEAD
+
         else if(array[mid]>key)
         {
             end=mid-1;
@@ -89,7 +89,7 @@ int main()
     int secondorder_ans=lastorder(array,size,key);
     cout<<"The last index is :"<<secondorder_ans;
 }
-=======
+
     }
 }
 

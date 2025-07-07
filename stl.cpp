@@ -7,6 +7,9 @@ int main()
 
     for(int i=0;i<5;i++)
     {
-        cout<<a[i];
+        cout<<a[i]<<endl;
     }
+    cout<<"Array is empty :"<<a.empty()<<endl;
+    cout<<"First element in array :"<<a.front()<<endl;
+    cout<<"Last element in array :"<<a.back()<<endl;
 }

@@ -31,4 +31,4 @@ int main()
     int len=getlength(name);
     reversestring(name,len);
     cout<<"Your name is :"<<name<<endl;
-}
+} 

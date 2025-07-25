@@ -31,3 +31,5 @@ int main()
         }
     }
 }
+
+// time complexity :- o(n*log(log n))

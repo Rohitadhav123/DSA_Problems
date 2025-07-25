@@ -32,3 +32,5 @@ int main()
     int ans=gcd(a,b);
     cout<<"GCD is :"<<ans<<endl;
 }
+
+// module

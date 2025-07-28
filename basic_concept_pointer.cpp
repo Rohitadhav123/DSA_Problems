@@ -14,6 +14,21 @@ int main()
     cout<<"value of ptr :"<<ptr<<endl;
     (*ptr)++;
     cout<<"value of *ptr :"<<*ptr<<endl;
+    int *q=ptr;
+    cout<<ptr<<endl;
+    cout<<" q :"<<*q<<endl;
+
+    // important concept
+    int i=3;
+    int *t= &i;
+    cout<< (*t)++ <<endl;
+    
+    *t=*t+1;
+    cout<< "*t ="<< *t<<endl; 
+    cout<< "*t ="<< t<<endl; 
+
+
+
 }
 
 

@@ -19,6 +19,7 @@ int main()
 
     int i=3;
     cout<< i[array]<<endl;
+    cout<< i[array]<<endl;
 
 
 

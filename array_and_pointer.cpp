@@ -28,4 +28,8 @@ int main()
     
     int *ptr=&temp[0];
     cout<<sizeof(ptr)<<endl;
+
+
+    char cha[6]={"abcde"};
+    
 }

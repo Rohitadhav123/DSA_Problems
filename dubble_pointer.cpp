@@ -16,6 +16,7 @@ int main()
     cout<<&ptr1<<endl;
     cout<<*ptr1<<endl;
     cout<<&i<<endl;
+    cout<<i<<endl;
     
 
 

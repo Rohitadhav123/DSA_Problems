@@ -10,10 +10,12 @@ int main()
 
 
     cout<<ptr<<endl;
+    cout<<&ptr<<endl;
     cout<<*ptr<<endl;
     cout<<ptr1<<endl;
     cout<<**ptr1<<endl;
     cout<<&ptr1<<endl;
+    cout<<*ptr1<<endl;
     cout<<*ptr1<<endl;
     cout<<&i<<endl;
     
